@@ -201,7 +201,7 @@ export default function FactoryAnimation() {
 
 function RobotStation1() {
   return (
-    <div className="absolute flex flex-col items-center" style={{ left: "16%", bottom: "138px" }}>
+    <div className="absolute flex flex-col items-center" style={{ left: "16%", bottom: "150px" }}>
       <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[120px] h-[240px] drop-shadow-xl">
         <rect x="20" y="130" width="40" height="25" rx="0" fill="#161A21" stroke="#73757D" strokeWidth="2"/>
         <rect x="15" y="70" width="50" height="60" rx="0" fill="#10131A" stroke="#73757D" strokeWidth="2"/>
@@ -235,7 +235,7 @@ function RobotStation1() {
 
 function RobotStation2() {
   return (
-    <div className="absolute flex flex-col items-center" style={{ left: "32%", bottom: "138px" }}>
+    <div className="absolute flex flex-col items-center" style={{ left: "32%", bottom: "150px" }}>
       <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[120px] h-[240px] drop-shadow-xl">
         <rect x="20" y="130" width="40" height="25" rx="0" fill="#161A21" stroke="#73757D" strokeWidth="2"/>
         <rect x="12" y="68" width="56" height="62" rx="0" fill="#10131A" stroke="#73757D" strokeWidth="2"/>
@@ -265,7 +265,7 @@ function RobotStation2() {
 
 function RobotStation3() {
   return (
-    <div className="absolute flex flex-col items-center" style={{ left: "48%", bottom: "138px" }}>
+    <div className="absolute flex flex-col items-center" style={{ left: "48%", bottom: "150px" }}>
       <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[120px] h-[240px] drop-shadow-xl">
         <rect x="20" y="130" width="40" height="25" rx="0" fill="#161A21" stroke="#73757D" strokeWidth="2"/>
         <rect x="10" y="65" width="60" height="65" rx="0" fill="#10131A" stroke="#73757D" strokeWidth="2"/>
@@ -292,7 +292,7 @@ function RobotStation3() {
         </g>
       </svg>
       {/* Sparks */}
-      <div className="absolute" style={{ bottom: "138px", left: "calc(48% + 88px)" }}>
+      <div className="absolute" style={{ bottom: "150px", left: "calc(48% + 88px)" }}>
         {[
           { sx: "15px", sy: "-20px", delay: "0s" },
           { sx: "-10px", sy: "-25px", delay: "0.2s" },
@@ -319,7 +319,7 @@ function RobotStation3() {
 
 function RobotStation4() {
   return (
-    <div className="absolute flex flex-col items-center" style={{ left: "64%", bottom: "138px" }}>
+    <div className="absolute flex flex-col items-center" style={{ left: "64%", bottom: "150px" }}>
       <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[120px] h-[240px] drop-shadow-xl">
         <rect x="20" y="130" width="40" height="25" rx="0" fill="#161A21" stroke="#73757D" strokeWidth="2"/>
         <rect x="14" y="70" width="52" height="60" rx="0" fill="#10131A" stroke="#73757D" strokeWidth="2"/>
@@ -359,7 +359,7 @@ function RobotStation4() {
 
 function RobotStation5() {
   return (
-    <div className="absolute flex flex-col items-center" style={{ left: "80%", bottom: "138px" }}>
+    <div className="absolute flex flex-col items-center" style={{ left: "80%", bottom: "150px" }}>
       <svg viewBox="0 0 80 160" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[120px] h-[240px] drop-shadow-xl">
         <rect x="20" y="130" width="40" height="25" rx="0" fill="#161A21" stroke="#73757D" strokeWidth="2"/>
         <rect x="16" y="68" width="48" height="62" rx="0" fill="#10131A" stroke="#73757D" strokeWidth="2"/>

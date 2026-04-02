@@ -42,8 +42,9 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} dark`}
+      suppressHydrationWarning
     >
-      <body className="bg-surface text-on-surface font-[family-name:var(--font-inter)] antialiased min-h-screen">
+      <body className="bg-surface text-on-surface font-[family-name:var(--font-inter)] antialiased min-h-screen" suppressHydrationWarning>
         {children}
       </body>
     </html>
